@@ -25,16 +25,16 @@ public class AppTest {
 	@Test
 	public void testwithNegitives() {
 		Arithmetic ar = new Arithmetic();
-		int expected = -30;
-		int actual = ar.sum(-10, -20);
+		int expected = -20;
+		int actual = ar.sum(-10, -10);
 		assertEquals(expected, actual);
 	}
 	
 	@Test
 	public void testwithZeros() {
 		Arithmetic ar = new Arithmetic();
-		int expected = 0;
-		int actual = ar.sum(0, 0);
+		int expected = 00;
+		int actual = ar.sum(00, 00);
 		assertEquals(expected, actual);
 	}
 }
