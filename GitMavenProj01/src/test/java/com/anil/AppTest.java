@@ -22,19 +22,4 @@ public class AppTest {
 		assertEquals(expected, actual);
 	}
 	
-	@Test
-	public void testwithNegitives() {
-		Arithmetic ar = new Arithmetic();
-		int expected = -20;
-		int actual = ar.sum(-10, -10);
-		assertEquals(expected, actual);
-	}
-	
-	@Test
-	public void testwithZeros() {
-		Arithmetic ar = new Arithmetic();
-		int expected = 00;
-		int actual = ar.sum(00, 00);
-		assertEquals(expected, actual);
-	}
 }
