@@ -7,4 +7,4 @@ public class ApplicationRun {
 		Arithmetic ar = new Arithmetic();
 		System.out.println("Sum is :: "+ar.sum(10, 30));
 	}
-}
+}	
